@@ -31,3 +31,5 @@ python3 -m uvicorn main:app --reloads
 ```
 python.exe -m uvicorn main:app --reload
 ```
+### Phase 4
+This phase includes prometheus, Kind and integration tests
