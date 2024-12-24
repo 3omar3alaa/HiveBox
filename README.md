@@ -1,5 +1,5 @@
 # HiveBox
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/3omar3alaa/HiveBox/badge)](https://scorecard.dev/viewer/?uri=github.com/3omar3alaa/HiveBox)
+[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/3omar3alaa/HiveBox/badge)](https://scorecard.dev/viewer/?uri=github.com/3omar3alaa/HiveBox)
 
 This repo is the implementation of the hands-on project [HiveBox](
 https://devopsroadmap.io/projects/hivebox/) provided by the [Dynamic DevOps Roadmap](https://devopsroadmap.io/getting-started/).
