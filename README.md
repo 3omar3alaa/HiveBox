@@ -33,3 +33,4 @@ python.exe -m uvicorn main:app --reload
 ```
 ### Phase 4
 This phase includes prometheus, Kind and integration tests
+1. Add /metrics API to return default prometheus metrics through the [Prometheus FastAPI Instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator?tab=readme-ov-file) package
