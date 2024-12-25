@@ -25,7 +25,7 @@ The features implemented in this phase
 Use the following commands to run the code
 **Linux**
 ```
-python3 -m uvicorn main:app --reloads
+python3 -m uvicorn main:app --reload
 ```
 **Windows**
 ```
