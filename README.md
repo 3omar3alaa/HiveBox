@@ -22,7 +22,7 @@ The features implemented in this phase
 6. Build Docker image and push to Github Container Registry (GHCR) in the CI/CD pipeline. Refer to this [link](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-docker-images) for more details
 7. Integrate OpenSSF scorecard
 
-Use the following commands to run the code
+Use the following commands to run the code locally
 **Linux**
 ```
 python3 -m uvicorn main:app --reload
@@ -31,6 +31,17 @@ python3 -m uvicorn main:app --reload
 ```
 python.exe -m uvicorn main:app --reload
 ```
+
+Then access the APIs through ***localhost:8000/docs***
+
+For the time being, the temperature API gets the avg temperature of the following sensors
+[Groß Glienicke](https://opensensemap.org/explore/5eba5fbad46fb8001b799786)
+[nodeMCUv3](https://opensensemap.org/explore/5eb99cacd46fb8001b2ce04c)
+[AGH52-1A](https://opensensemap.org/explore/5e60cf5557703e001bdae7f8)     
+
+
 ### Phase 4
 This phase includes prometheus, Kind and integration tests
 1. Add /metrics API to return default prometheus metrics through the [Prometheus FastAPI Instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator?tab=readme-ov-file) package
+2. Install Kind, Load Balancer and Nginx Ingress plus creating Kubernetes core manifests to deploy the application.
+Very detailed explanation can be found in this **[README.md](kubernetes/README.md)**
