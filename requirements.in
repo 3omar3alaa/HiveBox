@@ -5,3 +5,4 @@ pytest
 httpx
 toml
 prometheus-fastapi-instrumentator
+python-dotenv

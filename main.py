@@ -8,8 +8,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 import toml
+from dotenv import load_dotenv
 from controllers import open_sense
 
+
+load_dotenv()
 # Load the pyproject.toml file
 with open("pyproject.toml", "r", encoding="utf-8") as f:
     pyproject_data = toml.load(f)
