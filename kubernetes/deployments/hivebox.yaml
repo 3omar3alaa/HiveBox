@@ -14,6 +14,9 @@ spec:
     spec:
       containers:
       - name: hivebox-container
-        image: ghcr.io/3omar3alaa/hivebox:main
+        image: hivebox:test-1
         ports:
         - containerPort: 8000
+        envFrom:
+          - configMapRef:
+              name: hivebox-config

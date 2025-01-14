@@ -104,6 +104,7 @@ Apply the following commands to deploy the hivebox project and prometheus into t
 
 ```
 kubectl apply -f config-maps/prometheus-config.yaml
+kubectl apply -f config-maps/hivebox-config.yaml
 kubectl apply -f deployments/prometheus.yaml
 kubectl apply -f deployments/hivebox.yaml
 kubectl apply -f services/prometheus.yaml
@@ -137,4 +138,9 @@ curl ${LOADBALANCER_IP}/prometheus/query
 Use the following command
 ```
 kind delete cluster
+```
+
+Also run this command
+```
+kubectl delete validatingwebhookconfiguration ingress-nginx-admission
 ```
