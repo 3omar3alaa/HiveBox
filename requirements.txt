@@ -179,9 +179,9 @@ prometheus-client==0.21.1 \
     --hash=sha256:252505a722ac04b0456be05c05f75f45d760c2911ffc45f2a06bcaed9f3ae3fb \
     --hash=sha256:594b45c410d6f4f8888940fe80b5cc2521b305a1fafe1c58609ef715a001f301
     # via prometheus-fastapi-instrumentator
-prometheus-fastapi-instrumentator==7.0.0 \
-    --hash=sha256:5ba67c9212719f244ad7942d75ded80693b26331ee5dfc1e7571e4794a9ccbed \
-    --hash=sha256:96030c43c776ee938a3dae58485ec24caed7e05bfc60fe067161e0d5b5757052
+prometheus-fastapi-instrumentator==7.0.2 \
+    --hash=sha256:8a4d8fb13dbe19d2882ac6af9ce236e4e1f98dc48e3fa44fe88d8e23ac3c953f \
+    --hash=sha256:975e39992acb7a112758ff13ba95317e6c54d1bbf605f9156f31ac9f2800c32d
     # via -r requirements.in
 pydantic==2.10.3 \
     --hash=sha256:be04d85bbc7b65651c5f8e6b9976ed9c6f41782a55524cef079a34a0bb82144d \
