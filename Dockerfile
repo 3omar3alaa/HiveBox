@@ -1,4 +1,4 @@
-FROM python:3.13@sha256:9255d1993f6d28b8a1cd611b108adbdfa38cb7ccc46ddde8ea7d734b6c845e32
+FROM python:3.13@sha256:6a9220edda062e9223ea0784740a535987299420b96fbfd520b89bbd3e772485
 WORKDIR /app
 COPY ./requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
